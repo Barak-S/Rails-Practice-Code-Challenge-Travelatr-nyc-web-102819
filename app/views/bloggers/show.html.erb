@@ -1,0 +1,6 @@
+<h1>Hello <%= @blogger.name %></h1>
+n
+<% @blogger_posts.each do |post| %>
+<h3><%= post.title %></h3>
+<p><%= post.likes %></p>
+<% end %>
